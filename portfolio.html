@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoldenGravity Digital Marketing - Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #4C6A8C;
+            color: white;
+        }
+        .logo {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        #hero {
+            background-color: #f4f4f4;
+            padding: 50px 0;
+            text-align: center;
+        }
+        #hero h2 {
+            margin: 0 0 10px;
+            font-size: 2em;
+        }
+        #hero p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            background-color: #C8D1CE;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .center {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+        .portfolio-item {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .portfolio-item h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #4C6A8C;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        p {
+            margin: 20px 0;
+            color: #4C6A8C;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #hero h2 {
+                font-size: 1.5em;
+            }
+            #hero p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1>GoldenGravity</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <p>Take a look at some of our successful projects</p>
+        </div>
+    </section>
+    
+    <section id="portfolio" style="background-color: #C8D1CE;">
+        <div class="container">
+            <div class="portfolio-item">
+                <h3>Project Title 1</h3>
+                <p>Description of Project 1.</p>
+                <img src="images/portfolio1.jpg" alt="Project 1" class="center">
+            </div>
+            <div class="portfolio-item">
+                <h3>Project Title 2</h3>
+                <p>Description of Project 2.</p>
+                <img src="images/portfolio2.jpg" alt="Project 2" class="center">
+            </div>
+            <div class="portfolio-item">
+                <h3>Project Title 3</h3>
+                <p>Description of Project 3.</p>
+                <img src="images/portfolio3.jpg" alt="Project 3" class="center">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GoldenGravity. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
